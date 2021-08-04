@@ -1,13 +1,14 @@
 module.exports = {
-  "title": "zealsay说你想说",
-  "description": "zealsay说你想说,是一个关注于互联网、IT技术经验分享的个人独立博客。专注于IT行业最前沿的技术。致力成为互联网上最个性、最极客、具传播力的个人独立博客。",
+  "title": "Aissen's den",
+  "description": "Constantly exploring the unknown and nothing is impossible",
   "dest": "dist",
+  "base":"/repo/",
   "head": [
     [
       "link",
       {
         "rel": "icon",
-        "href": "https://pan.zealsay.com/blog/favicon.ico"
+        "href": "./logo.png"
       }
     ],
     [
@@ -63,61 +64,36 @@ module.exports = {
         "text": "标签"
       }
     },
-    "friendLink": [
-      {
-        "title": "作者博客",
-        "desc": "zealsay说你想说",
-        "logo": "https://pan.zealsay.com/avatar/20200606105310570000000.jpg",
-        "link": "https://blog.zealsay.com"
-      },
-      {
-        "title": "另一个博客",
-        "desc": "vuepress_blog",
-        "logo": "https://pan.zealsay.com/blog/logo.png",
-        "link": "https://www.zealsay.com"
-      },
-      {
-        "title": "午后南杂",
-        "desc": "Enjoy when you can, and endure when you must.",
-        "logo": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        "link": "https://www.recoluan.com"
-      },
-      {
-        "title": "zealsay开发指南",
-        "desc": "zealsay轻应用脚手架开发指南",
-        "logo": "https://pic.zealsay.com/20190909225214850000000.jpg",
-        "link": "https://docs.zealsay.com"
-      }
-    ],
     "valineConfig": {
-      "appId": "xxx",// your appId
-      "appKey": "xxx", // your appKey
+      "appId": "ffqx3nh3THKfTLsKcI3yevka-gzGzoHsz",// your appId
+      "appKey": "HVjuBDgldJTVUMrBhARyaaXI", // your appKey
       "avatar": "", //
       "enableQQ": true, //启用昵称框自动获取QQ昵称和QQ头像
       "requiredFields": ['nick', 'mail'], //设置必填项
     },
-    "logo": "/logo.png",
+    "logo": "./logo.png",
+  
     // "huawei": true, //首页出现华为文案
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
-    "author": "李白",
-    "authorAvatar": "https://pan.zealsay.com/avatar/20200606105310570000000.jpg",
+    "author": "Aissen",
+    "authorAvatar": "./logo.png",
     "record": "你的备案号 ", //icp备案
-    "startYear": "2020",
-    "info": "一名追求技术喜欢安静的程序猿，目前在北京某互联网公司担任高级后台java开发。",
+    "startYear": "2021",
+    "info": "一位普通的学生党，但有着不普通的梦想",
     "socials":{
-      "github" : "https://github.com/GodLikeZeal", //github
-      "gitlub" : false, //gitlub
-      "gitee" : "https://gitee.com/GodLikeZeal", //gitee
-      "jianshu" : "https://www.jianshu.com/u/e2d051b6d2e9", //简书
-      "zhihu" : "https://www.zhihu.com/people/qian-ge-diao-63", //知乎
-      "toutiao" : false, //知乎
-      "juejin": "https://juejin.im/user/2796746683716990", //掘金
-      "segmentfault" : "https://segmentfault.com/u/zeal_5eecb699bdb08", //思否
-      "csdn" : false, //CSDN
-      "wechat" : "你的微信", //微信
-      "qq" : "你的QQ" //QQ
+      // "github" : "https://github.com/GodLikeZeal", //github
+      // "gitlub" : false, //gitlub
+      // "gitee" : "https://gitee.com/GodLikeZeal", //gitee
+      // "jianshu" : "https://www.jianshu.com/u/e2d051b6d2e9", //简书
+      // "zhihu" : "https://www.zhihu.com/people/qian-ge-diao-63", //知乎
+      // "toutiao" : false, //知乎
+      // "juejin": "https://juejin.im/user/2796746683716990", //掘金
+      // "segmentfault" : "https://segmentfault.com/u/zeal_5eecb699bdb08", //思否
+      // "csdn" : false, //CSDN
+      // "wechat" : "你的微信", //微信
+      "qq" : "2356335956" //QQ
     },
     "mottos": [{
       "zh": "愿你保持初心和善良,笑里尽是温暖与坦荡。",
@@ -148,13 +124,14 @@ module.exports = {
       }
     ],
     "covers": [
-      'https://pan.zealsay.com/zealsay/cover/7.jpg',
-      'https://pan.zealsay.com/zealsay/cover/1.jpg',
-      'https://pan.zealsay.com/zealsay/cover/2.jpg',
-      'https://pan.zealsay.com/zealsay/cover/3.jpg',
-      'https://pan.zealsay.com/zealsay/cover/4.jpg',
-      'https://pan.zealsay.com/zealsay/cover/5.jpg',
-      'https://pan.zealsay.com/zealsay/cover/6.jpg'
+      './cover1.jpg',
+      './cover2.jpg',
+      './cover3.jpg',
+      './cover4.jpg',
+      './cover5.jpg',
+      './cover6.jpg',
+      './cover7.jpg',
+
     ],
     "codeTheme": "tomorrow"
   },
